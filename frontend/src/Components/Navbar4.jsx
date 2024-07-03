@@ -159,7 +159,7 @@ const Navbar = () => {
                 w="160px"
               />
             </ReactLink>
-            <HStack>
+            {/* <HStack>
               {[
                 { label: "MEN", data: menDropdownLinks },
                 { label: "WOMEN", data: womenDropdownLinks },
@@ -174,6 +174,65 @@ const Navbar = () => {
                   {renderDropdown(category.label, category.data)}
                 </Box>
               ))}
+            </HStack> */}
+            <HStack>
+            <div className="dropdown">
+              <a href="#" className="dropbtn">
+                <ReactLink to="/products">Men</ReactLink>
+              </a>
+              <div className="dropdown-content">
+                <div className="row">
+                  <div className="column sub-menu">
+                    <ReactLink to="/dashboard">All New</ReactLink>
+                    <ReactLink to="">Just Dropped</ReactLink>
+                    <ReactLink to="">New Makeup</ReactLink>
+                    <ReactLink to="">New Skincare</ReactLink>
+                    <ReactLink to="">New Hair Care</ReactLink>
+                    <ReactLink to="">New Fragrance</ReactLink>
+                    <ReactLink to="">New Bath & Body</ReactLink>
+                    <ReactLink to="">New Tools & Brushes</ReactLink>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="dropdown">
+              <a href="#" className="dropbtn">
+                <ReactLink to="/products">Women</ReactLink>
+              </a>
+              <div className="dropdown-content">
+                <div className="row">
+                  <div className="column sub-menu">
+                    <ReactLink to="/dashboard">All New</ReactLink>
+                    <ReactLink to="">Just Dropped</ReactLink>
+                    <ReactLink to="">New Makeup</ReactLink>
+                    <ReactLink to="">New Skincare</ReactLink>
+                    <ReactLink to="">New Hair Care</ReactLink>
+                    <ReactLink to="">New Fragrance</ReactLink>
+                    <ReactLink to="">New Bath & Body</ReactLink>
+                    <ReactLink to="">New Tools & Brushes</ReactLink>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="dropdown">
+              <a href="#" className="dropbtn">
+                <ReactLink to="/products">Mobile Cover</ReactLink>
+              </a>
+              <div className="dropdown-content">
+                <div className="row">
+                  <div className="column sub-menu">
+                    <ReactLink to="/dashboard">All New</ReactLink>
+                    <ReactLink to="">Just Dropped</ReactLink>
+                    <ReactLink to="">New Makeup</ReactLink>
+                    <ReactLink to="">New Skincare</ReactLink>
+                    <ReactLink to="">New Hair Care</ReactLink>
+                    <ReactLink to="">New Fragrance</ReactLink>
+                    <ReactLink to="">New Bath & Body</ReactLink>
+                    <ReactLink to="">New Tools & Brushes</ReactLink>
+                  </div>
+                </div>
+              </div>
+            </div>
             </HStack>
           </HStack>
           <HStack>

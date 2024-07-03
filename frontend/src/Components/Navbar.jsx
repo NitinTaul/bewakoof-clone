@@ -364,7 +364,7 @@ const Navbar = () => {
               />
             </a>
 
-            <DropdownMenu />
+            {/* <DropdownMenu /> */}
 
             {/* <HStack spacing={4}>
               <Menu isOpen={isOpen} onOpen={onOpen} onClose={onClose}>
@@ -434,7 +434,7 @@ const Navbar = () => {
 
             <div className="dropdown">
               <a href="#" className="dropbtn">
-                <ReactLink to="/products">Women</ReactLink>
+                <ReactLink to="/products">Men</ReactLink>
               </a>
               <div className="dropdown-content">
                 <div className="row">
@@ -448,18 +448,24 @@ const Navbar = () => {
                     <ReactLink to="">New Bath & Body</ReactLink>
                     <ReactLink to="">New Tools & Brushes</ReactLink>
                   </div>
-
+                </div>
+              </div>
+            </div>
+            <div className="dropdown">
+              <a href="#" className="dropbtn">
+                <ReactLink to="/products">Women</ReactLink>
+              </a>
+              <div className="dropdown-content">
+                <div className="row">
                   <div className="column sub-menu">
-                    <ReactLink to="">The Next Big Thing</ReactLink>
-                    <ReactLink to="">Bestsellers</ReactLink>
-                    <ReactLink to="">Trending on Social</ReactLink>
-                    <ReactLink to="">Refillable Beauty Products</ReactLink>
-                    <ReactLink to="">Quizzes & Buying Guides</ReactLink>
-                    <ReactLink to="">Clean Beauty Guide</ReactLink>
-                    <ReactLink to="">
-                      Clean+ Planet Positive Beauty Guide
-                    </ReactLink>
-                    <ReactLink to="">FSA & HSA Eligible</ReactLink>
+                    <ReactLink to="/dashboard">All New</ReactLink>
+                    <ReactLink to="">Just Dropped</ReactLink>
+                    <ReactLink to="">New Makeup</ReactLink>
+                    <ReactLink to="">New Skincare</ReactLink>
+                    <ReactLink to="">New Hair Care</ReactLink>
+                    <ReactLink to="">New Fragrance</ReactLink>
+                    <ReactLink to="">New Bath & Body</ReactLink>
+                    <ReactLink to="">New Tools & Brushes</ReactLink>
                   </div>
                 </div>
               </div>
@@ -479,19 +485,6 @@ const Navbar = () => {
                     <ReactLink to="">New Fragrance</ReactLink>
                     <ReactLink to="">New Bath & Body</ReactLink>
                     <ReactLink to="">New Tools & Brushes</ReactLink>
-                  </div>
-
-                  <div className="column sub-menu">
-                    <ReactLink to="">The Next Big Thing</ReactLink>
-                    <ReactLink to="">Bestsellers</ReactLink>
-                    <ReactLink to="">Trending on Social</ReactLink>
-                    <ReactLink to="">Refillable Beauty Products</ReactLink>
-                    <ReactLink to="">Quizzes & Buying Guides</ReactLink>
-                    <ReactLink to="">Clean Beauty Guide</ReactLink>
-                    <ReactLink to="">
-                      Clean+ Planet Positive Beauty Guide
-                    </ReactLink>
-                    <ReactLink to="">FSA & HSA Eligible</ReactLink>
                   </div>
                 </div>
               </div>

@@ -30,7 +30,7 @@
 
 .dropdown-content a:hover {background-color: #ddd;}
 
-.dropdown:hover .dropdown-content {display: block;   margin-top: 6px; /* Adjust as needed */
+.dropdown:hover .dropdown-content {display: block;   margin-top: 16px; /* Adjust as needed */
   }
 
 .dropdown > a:hover {
@@ -47,7 +47,7 @@
     height: 2px; /* Adjust underline thickness */
     background-color: yellow; /* Underline color */
     position: absolute;
-    bottom: -4px; /* 15px gap below the text */
+    bottom: -11px; /* 15px gap below the text */
     left: 0;
   }
 }
