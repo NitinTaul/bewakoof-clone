@@ -1,10 +1,11 @@
 /* Navbar3.css */
 .dropbtn {
-    font-size: 12px;
+    font-size: 11px;
     font-family: 'montserrat', 'sans-serif';
     transition: all 0.2s;
     cursor: pointer;
-    padding: 0px 2px;
+    padding: 2px 2px;
+    margin-top: 8px;
   }
   
   .dropbtn:hover {

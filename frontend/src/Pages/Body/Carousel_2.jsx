@@ -214,7 +214,6 @@ const Carousel_2 = () => {
         rewindWithAnimation={false}
         rtl={false}
         shouldResetAutoplay
-        showDots={false}
         sliderClass=""
         slidesToSlide={5}
         swipeable
