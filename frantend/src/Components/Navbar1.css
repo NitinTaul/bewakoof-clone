@@ -1,0 +1,48 @@
+.navbar-link {
+  text-transform: uppercase;
+  font-family: 'montserrat', 'sans-serif';
+  font-size: 16px;
+  color: rgba(0, 0, 0, .8);
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.navbar-link:hover {
+  text-decoration: none;
+}
+
+.dropbtn {
+  font-family: 'montserrat', 'sans-serif';
+  font-size: 12px;
+  padding: 4px 16px;
+  transition: all 0.2s;
+}
+
+.dropbtn:hover {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  text-underline-offset: 14px;
+  text-decoration-thickness: 5px;
+}
+
+.dropdown-menu {
+  min-width: 950px;
+  margin-top: 6px;
+  margin-left: -200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 30px 0;
+  width: 85%;
+  margin: auto;
+}
+
+.dropdown-link {
+  display: block;
+  padding: 0.4vw;
+  /* color: black; */
+  font-weight: 600;
+}
+
+.dropdown-link:hover {
+  background-color: #ddd;
+}

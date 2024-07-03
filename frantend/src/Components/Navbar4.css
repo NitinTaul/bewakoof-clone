@@ -1,0 +1,86 @@
+/* Navbar3.css */
+.dropbtn {
+    font-size: 12px;
+    font-family: 'montserrat', 'sans-serif';
+    transition: all 0.2s;
+    cursor: pointer;
+    padding: 0px 2px;
+  }
+  
+  .dropbtn:hover {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-underline-offset: 14px;
+    text-decoration-thickness: 3px;  
+    position: relative;
+  
+    &::after {
+      content: "";
+      /* display: block; */
+      width: 100%; /* Match the button width */
+      height:3px; /* Adjust underline thickness */
+      background-color: yellow; /* Underline color */
+      position: absolute;
+      bottom: -16px; /* 15px gap below the text */
+      left: 0;
+    }}
+  
+  .menu-list {
+    min-width: 950px;
+    margin-top: 10px;
+    margin-left: -200px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu-item {
+    display: block;
+    padding: 0.4vw;
+    font-weight: 600;
+  }
+  
+  .menu-item:hover {
+    text-decoration: underline;
+
+  }
+  
+  .menu-heading {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+ /* Navbar3.css */
+
+/* Styling for dropdown menu */
+.menu-list {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    min-width: 200px;
+    z-index: 1;
+    display: none; /* Hidden by default */
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropbtn:hover .menu-list {
+    display: block;
+  }
+  
+  /* Adjust the position of the dropdown menu */
+  .dropbtn {
+    position: relative;
+  }
+  
+  /* Style each item in the dropdown menu */
+  .menu-list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change background color of dropdown items on hover */
+  .menu-list a:hover {
+    background-color: #f9f9f9;
+  }
+  

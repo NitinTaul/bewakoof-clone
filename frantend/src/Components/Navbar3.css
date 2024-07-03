@@ -1,0 +1,12 @@
+/* Navbar1.css */
+.dropbtn {
+    text-transform: uppercase; /* Ensure uppercase text */
+    padding: 14px;
+  }
+  
+  .menuItem:hover {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 10px;  }
+  

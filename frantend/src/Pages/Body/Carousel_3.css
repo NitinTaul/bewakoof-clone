@@ -1,0 +1,19 @@
+
+.custom-dot-list-3 {
+    bottom: -20px !important;
+  }
+
+.custom-dot-list-3 .react-multi-carousel-dot button {
+  background-color: gray;
+  border: none;
+  width: 6px;
+  height: 6px;
+  margin: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-dot-list-3 .react-multi-carousel-dot--active button {
+  background-color: yellow;
+}
